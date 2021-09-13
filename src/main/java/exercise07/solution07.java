@@ -5,8 +5,12 @@
 package exercise07;
 
 import java.util.Scanner;
+import java.text.DecimalFormat;
 
 public class solution07 {
+
+    private static DecimalFormat df = new DecimalFormat("0.000");
+
     public static void main(String[] args) {
             Scanner sc = new Scanner(System.in);
 
@@ -20,20 +24,19 @@ public class solution07 {
             double a = l*w;
             final double finalAnswer = a*0.09290304;
 
-
             System.out.println("The area is:");
             System.out.println(a +" square feet.");
-            System.out.println(finalAnswer +" square meters.");
+            System.out.println(df.format(finalAnswer) +" square meters.");
         }
     }
-/* psuedocode: first, as per usual, the java.util.scanner function is imported.
-after that an instance of the scanner function is made and then program prints
-out the first prompt for the user to answer. the length is stored into a double
-named "l" and then the width is also stored into a double named "w". the area of
-the two number (length * width) is saved into a double integer called "a". this
-value is used to calculate the final double by multiplying it wih the number
-"0.09290304", this is the really important one to be a double so that the final
-answer has the correct decimal points after the whole number. this final number
-is stored in a double called "finalAnswer". finally, the code outputs the answers
-to the user.
+/* psuedocode: (had to rewrite this bc im a perfectionist :pensive:) first thing is to
+import both the java scanner functions and the java decimal functions. after that, the
+decimalformat function is called and is set so that the final answer is rounded up to
+three decimal points. after that an instance of the scanner function is made and we go
+directly into the outputs made by the code. the code then reads the users inputs and
+saves them in "l" for length and "w" for width. all of these values are stored into a
+double so that the final answer can actually have decimal points. the area is also stored
+into a double called "a" which is then used for the finalAnswer by multiplying it by
+"0.09290304" to get the area of the room in square meters. the code then outputs both
+the area in square feet and square meters.
  */
