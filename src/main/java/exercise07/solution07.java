@@ -31,12 +31,12 @@ public class solution07 {
     }
 /* psuedocode: (had to rewrite this bc im a perfectionist :pensive:) first thing is to
 import both the java scanner functions and the java decimal functions. after that, the
-decimalformat function is called and is set so that the final answer is rounded up to
-three decimal points. after that an instance of the scanner function is made and we go
-directly into the outputs made by the code. the code then reads the users inputs and
-saves them in "l" for length and "w" for width. all of these values are stored into a
-double so that the final answer can actually have decimal points. the area is also stored
-into a double called "a" which is then used for the finalAnswer by multiplying it by
-"0.09290304" to get the area of the room in square meters. the code then outputs both
-the area in square feet and square meters.
+decimalformat function is called into a private static field and is set so that the final
+answer is rounded up to three decimal points. after that an instance of the scanner
+function is made and we go directly into the outputs made by the code. the code then
+reads the users inputs and saves them in "l" for length and "w" for width. all of these
+values are stored into a double so that the final answer can actually have decimal points.
+the area is also stored into a double called "a" which is then used for the finalAnswer by
+multiplying it by "0.09290304" to get the area of the room in square meters. the code then
+outputs both the area in square feet and square meters.
  */
