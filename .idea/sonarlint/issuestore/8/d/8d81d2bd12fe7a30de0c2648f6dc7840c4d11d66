@@ -1,0 +1,7 @@
+
+\
+java:S1117":Rename "length" which hides the field declared at line 14.(¬¬ñüþÿÿÿÿ8¤å©€¿/
+[
+java:S1117"9Rename "width" which hides the field declared at line 15.(÷ Ó¬þÿÿÿÿ8Ëçª€¿/
+g	java:S101$"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(íþ÷Ðýÿÿÿÿ
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(à¼•¹
